@@ -44,5 +44,6 @@ spec:
         - containerPort: 8080
           name: http
           protocol: TCP
+        imagePullPolicy: Always          
         securityContext:
           privileged: false

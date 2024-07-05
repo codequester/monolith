@@ -307,8 +307,8 @@
                             <image>
                                 <name>${docker.image.name}</name>
                                 <build>
-<!--                                <from>jboss/wildfly:10.1.0.Final</from> -->
-                                    <from>registry.redhat.io/jboss-eap-7/eap74-openjdk8-runtime-openshift-rhel8:7.4.17-6</from>
+                                   <from>jboss/wildfly:10.1.0.Final</from>
+<!--                                    <from>registry.redhat.io/jboss-eap-7/eap74-openjdk8-runtime-openshift-rhel8:7.4.17-6</from> -->
                                     <ports>
                                         <port>8080</port>
                                     </ports>
@@ -327,6 +327,13 @@
                                                     <directory>src/main/wf-standalone</directory>
                                                     <includes>
                                                         <include>standalone.xml</include>
+                                                    </includes>
+                                                    <outputDirectory>standalone/configuration</outputDirectory>
+                                                </fileSet>
+                                                <fileSet>
+                                                    <directory>src/main/wf-standalone</directory>
+                                                    <includes>
+                                                        <include>logging.properties</include>
                                                     </includes>
                                                     <outputDirectory>standalone/configuration</outputDirectory>
                                                 </fileSet>
