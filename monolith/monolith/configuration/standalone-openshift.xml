@@ -136,7 +136,7 @@
         </datasource>
         <datasource jndi-name="java:jboss/datasources/MySQLDS" pool-name="MySQLDS">
           <connection-url>jdbc:mysql://mysql-backend:3306/ticketmonster</connection-url>
-          <driver>org.mysql</driver>
+          <driver>com.mysql</driver>
           <security>
             <user-name>root</user-name>
             <password>admin</password>
