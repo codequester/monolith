@@ -359,7 +359,7 @@
           <location name="/" handler="welcome-content"/>
           <filter-ref name="server-header"/>
           <filter-ref name="x-powered-by-header"/>
-          <filter-ref name="Cache-Control" predicate="path-suffix('.js') or path-suffix('.html') or path-suffix('.css')"/>          
+          <filter-ref name="Cache-Control"/>          
           <filter-ref name="Expires"/>
         </host>
       </server>
