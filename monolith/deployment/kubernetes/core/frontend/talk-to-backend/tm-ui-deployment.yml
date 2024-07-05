@@ -19,10 +19,12 @@ spec:
       labels:
         run: tm-ui
         version: v2
+      annotations:
+        sidecar.istio.io/inject: 'true'        
     spec:
       containers:
-      - image: ceposta/tm-ui:backend
-        imagePullPolicy: IfNotPresent
+      - image: docker.io/shankar29/tm-ui:backend
+        imagePullPolicy: Always
         name: tm-ui
         ports:
         - containerPort: 80

@@ -19,10 +19,12 @@ spec:
       labels:
         run: tm-ui
         version: v1
+      annotations:
+        sidecar.istio.io/inject: 'true'        
     spec:
       containers:
       - image: docker.io/shankar29/tm-ui:monolith
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: tm-ui
         ports:
         - containerPort: 8080
