@@ -360,6 +360,7 @@
           <filter-ref name="server-header"/>
           <filter-ref name="x-powered-by-header"/>
           <filter-ref name="Cache-Control" predicate="path-suffix('.js') or path-suffix('.html') or path-suffix('.css')"/>          
+          <filter-ref name="Expires"/>
         </host>
       </server>
       <servlet-container name="default">
@@ -373,6 +374,7 @@
         <response-header name="server-header" header-name="Server" header-value="WildFly/10"/>
         <response-header name="x-powered-by-header" header-name="X-Powered-By" header-value="Undertow/1"/>
         <response-header name="Cache-Control" header-name="Cache-Control" header-value="max-age=0, no-cache, no-store, must-revalidate"/>
+        <response-header name="Expires" header-name="Expires" header-value="Wed, 11 Jan 1984 05:00:00 GMT"/>
       </filters>
     </subsystem>
     <subsystem xmlns="urn:jboss:domain:webservices:2.0">
