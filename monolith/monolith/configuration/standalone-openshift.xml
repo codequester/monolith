@@ -136,7 +136,7 @@
         </datasource>
         <datasource jndi-name="java:jboss/datasources/MySQLDS" pool-name="MySQLDS">
           <connection-url>jdbc:mysql://mysql-backend:3306/ticketmonster</connection-url>
-          <driver>com.mysql</driver>
+          <driver>mysql</driver>
           <security>
             <user-name>root</user-name>
             <password>admin</password>
@@ -146,7 +146,10 @@
           <driver name="h2" module="com.h2database.h2">
             <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
           </driver>
-         </drivers>
+          <driver name="mysql" module="com.mysql">
+            <driver-class>com.mysql.jdbc.Driver</driver-class>
+          </driver>
+        </drivers>
       </datasources>
     </subsystem>
     <subsystem xmlns="urn:jboss:domain:deployment-scanner:2.0">
