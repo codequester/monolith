@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tm-ui-v2
@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      run: tm-ui
+      app: tm-ui
       version: v2
   strategy:
     rollingUpdate:
@@ -15,9 +15,8 @@ spec:
     type: RollingUpdate
   template:
     metadata:
-      creationTimestamp: null
       labels:
-        run: tm-ui
+        app: tm-ui
         version: v2
       annotations:
         sidecar.istio.io/inject: 'true'        
@@ -27,7 +26,7 @@ spec:
         imagePullPolicy: Always
         name: tm-ui
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
         resources: {}
         terminationMessagePath: /dev/termination-log

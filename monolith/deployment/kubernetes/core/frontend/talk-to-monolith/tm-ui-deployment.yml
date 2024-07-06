@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      run: tm-ui
+      app: tm-ui
       version: v1
   strategy:
     rollingUpdate:
@@ -15,9 +15,8 @@ spec:
     type: RollingUpdate
   template:
     metadata:
-      creationTimestamp: null
       labels:
-        run: tm-ui
+        app: tm-ui
         version: v1
       annotations:
         sidecar.istio.io/inject: 'true'        
