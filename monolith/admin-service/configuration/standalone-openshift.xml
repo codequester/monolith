@@ -356,6 +356,7 @@
       <server name="default-server">
         <http-listener name="default" socket-binding="http" redirect-socket="https"/>
         <host name="default-host" alias="localhost">
+          <access-log pattern="%h %l %u %t &quot;%r&quot; %s %b &quot;%{i,Referer}&quot; &quot;%{i,User-Agent}&quot; Cookie: &quot;%{i,COOKIE}&quot; Set-Cookie: &quot;%{o,SET-COOKIE}&quot; SessionID: %S Thread: &quot;%I&quot; TimeTaken: %T"/>
           <location name="/" handler="welcome-content"/>
           <filter-ref name="server-header"/>
           <filter-ref name="x-powered-by-header"/>
