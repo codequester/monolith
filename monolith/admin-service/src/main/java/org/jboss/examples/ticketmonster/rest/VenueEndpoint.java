@@ -84,6 +84,7 @@ public class VenueEndpoint
    @Produces("application/json")
    public List<VenueDTO> listAll(@QueryParam("start") Integer startPosition, @QueryParam("max") Integer maxResult)
    {
+      System.out.println("Fetching venues from Admin-Service . . .");
       TypedQuery<Venue> findAllQuery = em.createQuery("SELECT DISTINCT v FROM Venue v LEFT JOIN FETCH v.sections LEFT JOIN FETCH v.mediaItem ORDER BY v.id", Venue.class);
       if (startPosition != null)
       {
