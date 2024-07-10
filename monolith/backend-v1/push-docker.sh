@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker push ceposta/backend-mysql:v1
+podman push docker.io/shankar29/backend-mysql:v1
