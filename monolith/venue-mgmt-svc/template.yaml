@@ -196,7 +196,7 @@ objects:
             value: ${ENABLE_GENERATE_DEFAULT_DATASOURCE}
           image: ${APPLICATION_NAME}
           imagePullPolicy: Always
-            initialDelaySeconds: 60
+          initialDelaySeconds: 60
           name: ${APPLICATION_NAME}
           ports:
           - containerPort: 8778

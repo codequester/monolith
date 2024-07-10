@@ -5,6 +5,6 @@ oc new-app --name=venue-mgmt-svc --template=eap71-basic-s2i -p APPLICATION_NAME=
 oc start-build venue-mgmt-svc
 ```
 ```
-oc process -f ./template.yml --param-file=template.param | oc apply -f -
+oc process -f ./template.yaml --param-file=template.param | oc apply -f -
 oc start-build oc start-build venue-mgmt-svc-build-artifacts -F
 ```
