@@ -14,7 +14,7 @@ spec:
         - uri:
             prefix: /rest/forge/venues
       delegate:
-        name: vend-mgmt-svc-vs
+        name: venue-mgmt-svc-vs
     - match:
         - headers:
             user-agent:

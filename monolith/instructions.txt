@@ -29,9 +29,9 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.412.b06-1.fc39.x86_64
     ## Show case the traffic shifting feature based on the header value
         ## Create a Destination Rules to define the subsets of UI apps (1 talks to monolith, 1 talks to backend)
         ## Edit the VS, remove the entry for old monolith and introduce header match based routing
-## Step 6: Strangle the monolith more by creating a admin-service that will be evolve by slowly introducd the admin services
-    oc new-app --name=vendor-mgmt-svc --template=eap71-basic-s2i -p APPLICATION_NAME=vendor-mgmt-svc -p SOURCE_REPOSITORY_URL=https://github.com/codequester/monolith.git -p SOURCE_REPOSITORY_REF=main -p CONTEXT_DIR=monolith/vendor-mgmt-service 
-    oc start-build admin-service
+## Step 6: Strangle the monolith more by creating a venue-management-service that will be responsible for anything related to venues
+    oc new-app --name=venue-mgmt-svc --template=eap71-basic-s2i -p APPLICATION_NAME=venue-mgmt-svc -p SOURCE_REPOSITORY_URL=https://github.com/codequester/monolith.git -p SOURCE_REPOSITORY_REF=main -p CONTEXT_DIR=monolith/venue-mgmt-svc 
+    oc start-build venue-mgmt-svc
     ## Remove the probes from DC
     ## Annotate the dc for istio
     ## Configure VS for routing traffic to admin-service based on path

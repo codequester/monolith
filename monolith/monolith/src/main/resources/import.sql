@@ -1,51 +1,51 @@
 -- MediaItem 0
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Weir%2C_Bob_(2007)_2.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 1
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Carnival_Puppets.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 2
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Opera_House_with_Sydney.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 3
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Roy_Thomson_Hall_Toronto.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 4
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-West-stand-bmo-field.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 5
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Brazil_national_football_team_training_at_Dobsonville_Stadium_2010-06-03_13.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 6
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/AllStateFootballChampionship.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 7
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ARhythmia.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 8
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/BattleoftheBrassBands.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 9
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/CarnivalComestoTown.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 10
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ChrisLewisQuarterfinals.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 11
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/CrewYou.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 12
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ExtremeSnowboardingFinals.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 13
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/FlamencoFinale.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 14
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/JesseLewisUnplugged.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 15
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MadameButterfly.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 16
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MimeMania.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 17
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MorrisonCover.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 18
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/TutuTchai.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 19
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/SlapShot.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 20
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/Giantsofthegame.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 21
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/Punch%26Judy.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 22
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg/800px-Paris_Opera_full_frontal_architecture%2C_May_2009.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 -- MediaItem 23
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Boston_Symphony_Hall_from_the_south.jpg/800px-Boston_Symphony_Hall_from_the_south.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', '');
 
 -- Venue 1
 insert into Venue ( name, city, country, street, description, mediaitem_id, capacity) values ( 'Roy Thomson Hall', 'Toronto', 'Canada', '60 Simcoe Street','Roy Thomson Hall is the home of the Toronto Symphony Orchestra and the Toronto Mendelssohn Choir.',4, 11000);
@@ -140,7 +140,7 @@ insert into Event ( name, description, mediaitem_id, category_id) values ( 'Braz
 -- Event 4
 insert into Event ( name, description, mediaitem_id, category_id) values ( 'All State Football Championship', 'Show your colors in Friday Night Lights! Come see the Red Hot Scorpions put the sting on the winners of Sunday''s Coastal Quarterfinals for all state bragging rights. Fans entering the stadium in team color face paint will receive a $5 voucher redeemable with any on-site vendor. Body paint in lieu of clothing will not be permitted for this family friendly event.', 7, 4);
 -- Event 5
-insert into Event ( name, description, mediaitem_id, category_id) values ( 'Chris Lewis Quarterfinals', 'Every tennis enthusiast will want to see Wimbledon legend Chris Lewis as he meets archrival Deuce Wild in the quarterfinals of one of the top U.S. tournaments. Finals are already sold out, so do not miss your chance to see the real action in play on the eve of the big day!', 11, 4);
+insert into Event ( name, description, mediaitem_id, category_id) values ( 'Tennis Quarterfinals', 'For Every tennis enthusiast. Finals are already sold out, so do not miss your chance to see the real action in play on the eve of the big day!', 11, 4);
 -- Event 6
 insert into Event ( name, description, mediaitem_id, category_id) values ( 'Crew You', 'Join your fellow crew junkies and snarky, self-important collegiate know-it-alls from the nations snobbiest schools to see which team is in fact the fastest show on oars. (Or, if you like, just purchase a ticket and sport a t-shirt from your local community college just to tick them off -- this event promises to be SO much fun!)', 12, 4);
 -- Event 7
@@ -174,7 +174,7 @@ insert into Event ( name, description, mediaitem_id, category_id) values ( 'Punc
 insert into Appearance ( event_id, venue_id) values ( 1, 1);
 
 -- Performance 1
-insert into Performance ( show_id, date) values ( 1, '2015-01-24 19:00:00');
+insert into Performance ( show_id, date) values ( 1, '2024-07-24 19:00:00');
 
 -- SectionAllocation 1
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (1, 1, null, 0, 1);
@@ -183,7 +183,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (1, 4, null, 0, 1);
 
 -- Performance 2
-insert into Performance ( show_id, date) values ( 1, '2015-01-25 19:00:00');
+insert into Performance ( show_id, date) values ( 1, '2024-07-25 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 3, null, 0, 1);
@@ -193,7 +193,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 1, 2);
 
 -- Performance 3
-insert into Performance ( show_id, date) values ( 2, '2015-01-26 19:30:00');
+insert into Performance ( show_id, date) values ( 2, '2024-07-26 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 7, null, 0, 1);
@@ -203,7 +203,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 11, null, 0, 1);
 
 -- Performance #4
-insert into Performance ( show_id, date) values ( 2, '2015-01-27 19:30:00');
+insert into Performance ( show_id, date) values ( 2, '2024-07-27 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 7, null, 0, 1);
@@ -216,14 +216,14 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 2, 1);
 
 -- Performance 5
-insert into Performance ( show_id, date) values ( 3, '2015-01-28 17:00:00');
+insert into Performance ( show_id, date) values ( 3, '2024-07-28 17:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 3, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 4, null, 0, 1);
 
 -- Performance 6
-insert into Performance ( show_id, date) values ( 3, '2015-01-28 19:30:00');
+insert into Performance ( show_id, date) values ( 3, '2024-07-28 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 3, null, 0, 1);
@@ -233,7 +233,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 2, 2);
 
 -- Performance 7
-insert into Performance ( show_id, date) values ( 4, '2015-01-30 17:00:00');
+insert into Performance ( show_id, date) values ( 4, '2024-07-30 17:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 7, null, 0, 1);
@@ -243,7 +243,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 11, null, 0, 1);
 
 -- Performance 8
-insert into Performance ( show_id, date) values ( 4, '2015-01-30 19:30:00');
+insert into Performance ( show_id, date) values ( 4, '2024-07-30 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 7, null, 0, 1);
@@ -256,7 +256,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 3, 3);
 
 -- Performance 9
-insert into Performance ( show_id, date) values ( 5, '2015-03-06 21:00:00');
+insert into Performance ( show_id, date) values ( 5, '2024-08-06 21:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 12, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 13, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 14, null, 0, 1);
@@ -266,14 +266,14 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 1, 5);
 
 -- Performance 10
-insert into Performance ( show_id, date) values ( 6, '2015-01-24 19:00:00');
+insert into Performance ( show_id, date) values ( 6, '2024-07-24 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 20, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 21, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 22, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 23, null, 0, 1);
 
 -- Performance 11
-insert into Performance ( show_id, date) values ( 6, '2015-01-25 19:00:00');
+insert into Performance ( show_id, date) values ( 6, '2024-07-25 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 20, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 21, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 22, null, 0, 1);
