@@ -7,7 +7,7 @@ spec:
   gateways:
     - tm-gw
   hosts:
-    - tm-monolith-ticket-monster.apps.cluster-nk55g.dynamic.redhatworkshops.io
+    - tm-monolith-ticket-monster.apps.cluster-6t99s.dynamic.redhatworkshops.io
   http:
 # Pass 3: Route traffic to different versions of the Strangled application based on browser
     - match:
