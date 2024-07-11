@@ -5,7 +5,7 @@ This is project is a monorepo of projects that illustrate migrating a monolith a
 The motivation for the patterns used in this repo are articulated in detail in [this blog post](http://blog.christianposta.com/microservices/low-risk-monolith-to-microservice-evolution/)
 
  
-## Getting started with the projects
+## Getting started with
 
 There are a series of projects used to illustrate a migration to microservices from a Java EE monolith. 
 
