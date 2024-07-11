@@ -1,7 +1,7 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 metadata:
-  name: eap74-basic-s2i
+  name: venue-mgmt-svc-template
 objects:
 - apiVersion: v1
   kind: Service
