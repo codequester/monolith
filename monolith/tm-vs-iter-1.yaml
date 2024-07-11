@@ -7,12 +7,12 @@ spec:
   gateways:
     - tm-gw
   hosts:
-    - ticket-monster.apps.cluster-fzrrz.dynamic.redhatworkshops.io
+    - tm-monolith-ticket-monster.apps.cluster-nk55g.dynamic.redhatworkshops.io
   http:
 # Pass 1: Route traffic 100% to monolith
     - route:
       - destination:
-          host: ticket-monster
+          host: tm-monolith
         weight: 100
       - destination:
           host: tm-ui

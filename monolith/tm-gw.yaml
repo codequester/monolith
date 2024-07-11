@@ -8,7 +8,7 @@ spec:
     istio: ingressgateway
   servers:
     - hosts:
-        - ticket-monster.apps.cluster-fzrrz.dynamic.redhatworkshops.io
+        - tm-monolith-ticket-monster.apps.cluster-nk55g.dynamic.redhatworkshops.io
       port:
         name: http
         number: 80

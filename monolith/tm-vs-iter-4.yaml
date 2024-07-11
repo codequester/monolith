@@ -7,14 +7,14 @@ spec:
   gateways:
     - tm-gw
   hosts:
-    - ticket-monster.apps.cluster-fzrrz.dynamic.redhatworkshops.io
+    - tm-monolith-ticket-monster.apps.cluster-nk55g.dynamic.redhatworkshops.io
   http:
 # Pass 3: Route traffic to different versions of the Strangled application based on browser
     - match:
         - uri:
-            prefix: /rest/forge/venues
+            prefix: /rest/forge/venues 
       delegate:
-        name: venue-mgmt-svc-vs
+        name: venue-mgmt-svc-vs # If the path above matches, the call will be delegate to this
     - match:
         - headers:
             user-agent:
