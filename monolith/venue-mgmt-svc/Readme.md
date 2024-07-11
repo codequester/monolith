@@ -6,5 +6,5 @@ oc start-build venue-mgmt-svc
 ```
 ```
 oc process -f ./template.yaml --param-file=template.param | oc apply -f -
-oc start-build oc start-build venue-mgmt-svc-build-artifacts -F
+oc start-build venue-mgmt-svc-build-artifacts -F
 ```
