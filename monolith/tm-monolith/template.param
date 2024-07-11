@@ -1,4 +1,4 @@
-APPLICATION_NAME=tm-backend
+APPLICATION_NAME=tm-monolith
 SOURCE_REPOSITORY_URL=https://github.com/codequester/monolith.git
 SOURCE_REPOSITORY_REF=name-change 
-CONTEXT_DIR=monolith/tm-backend  
+CONTEXT_DIR=monolith/tm-monolith
