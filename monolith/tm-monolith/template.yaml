@@ -1,8 +1,7 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 metadata:
-  name: venue-svc-template
-  namespace: ticket-monster
+  name: tm-monolith-template
 objects:
 - apiVersion: v1
   kind: Service
